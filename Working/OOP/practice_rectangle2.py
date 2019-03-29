@@ -1,17 +1,17 @@
 class Rectangle (object):
 
     def __init__(self):
-    self.width = 0
-    self.height = 0
+        self.width = 0
+        self.height = 0
 
-def get_area(rec):
+    def get_area(rec):
 
-    """
-    Computes the area of a rectangle
-    :param rec: a Rectangle object
-    :return: area of rec
-    """
-    return rec.width * rec.height
+        """
+        Computes the area of a rectangle
+        :param rec: a Rectangle object
+        :return: area of rec
+        """
+        return rec.width * rec.height
 
 def main():
 
