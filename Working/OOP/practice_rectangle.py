@@ -16,11 +16,12 @@ def get_area(rec):
 def main():
     rect1 = Rectangle()
 
-    rect1.width = int(input("Enter the width: "))
-    rect1.height = int(input("Enter the height: "))
+    rect1.width = float(input("Enter the width: "))
+    rect1.height = float(input("Enter the height: "))
 
     area = get_area(rect1)
 
     print("The area of the rectangle is " + str(area))
+    print("The area of the rectangle is", area)
 
 main()
